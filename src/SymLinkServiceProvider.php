@@ -18,5 +18,10 @@ class SymLinkServiceProvider extends ServiceProvider
             return $app['Strakez\SymLink\Commands\FolderLinkCommand'];
         });
 
+        $this->commands([
+            'command.symlink.projectlink',
+            'command.symlink.folderlink'
+        ]);
+
     }
 }
