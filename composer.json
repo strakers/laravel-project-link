@@ -1,7 +1,7 @@
 {
     "name": "strakez/symlink",
     "description": "Create easy symlinks for Laravel/Lumen projects",
-    "type": "Laravel Package",
+    "type": "package",
     "require": {
         "illuminate/console": "^5.6",
         "illuminate/support": "^5.6"
@@ -13,5 +13,10 @@
             "email": "contact@strakez.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Strakez\\SymLink": "src"
+        }
+    }
 }
