@@ -3,8 +3,7 @@
     "description": "Create easy symlinks for Laravel/Lumen projects",
     "type": "project",
     "require": {
-        "illuminate/console": "^5.6",
-        "illuminate/support": "^5.6"
+        "laravel/tinker": "^5.6"
     },
     "license": "GNU General Public License v3.0",
     "authors": [
