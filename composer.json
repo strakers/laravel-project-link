@@ -1,0 +1,17 @@
+{
+    "name": "strakez/symlink",
+    "description": "Create easy symlinks for Laravel/Lumen projects",
+    "type": "Laravel Package",
+    "require": {
+        "illuminate/console": "^5.6",
+        "illuminate/support": "^5.6"
+    },
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "strakers",
+            "email": "contact@strakez.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
