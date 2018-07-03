@@ -1,6 +1,6 @@
 <?php
 
-namespace Strakez\Symlink;
+namespace Strakez\SymLink;
 
 use Illuminate\Support\ServiceProvider;
 
